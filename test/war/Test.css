@@ -1,0 +1,79 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 10px 0px 10px;
+  text-align: center;
+}
+
+.paddedTextBox {
+padding: 10px 10px 10px 10px;
+}
+
+div a {
+   margin:10px;
+}
+.NameButton {
+
+  font-size: 16pt;
+  width: 200px;
+  hight: 25px
+}
+.noOutline {
+  border-style: solid;
+  border-width:0;
+  border-color: #CC6600;
+}
+
+.DeleteButton {
+
+  font-size: 16pt;
+  width: 10px;
+  hight: 55px
+}
+
+.DateText {
+
+  font-size: 16pt;
+  width: 40px;
+  hight: 15px
+}
+
+.MessageText {
+  color: red;
+  font-size: 16pt;
+}
+
+.bgimg {
+    background-image: url('UTD.jpg');
+    background-repeat: no-repeat;
+}
+
+.no_error {
+  color: black;
+}
+
+.error {
+  color: red;
+}
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
